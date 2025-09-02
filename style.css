@@ -14,6 +14,55 @@ body {
 .hero {
     padding: 80px;
     text-align: center;
-    background: #1abc9c;
+    /* background: #1abc9c; */
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+/* Judul hero */
+.hero h1 {
+    font-size: 40px;
+}
+
+/* Paragraf hero */
+.hero p {
+    font-size: 20px;
+    margin: 0;
+}
+
+
+/* ================= NAVBAR ================= */
+/* Navbar utama */
+.navbar {
+    position: relative;
+    /* Untuk posisi tombol close */
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    /* Link rata kanan */
+    gap: 10px;
+    /* Jarak antar link */
+}
+
+/* Link di navbar */
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+}
+
+/* Hover efek link navbar */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
 }
