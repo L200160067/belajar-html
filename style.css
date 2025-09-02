@@ -66,3 +66,33 @@ body {
     background-color: #ddd;
     color: black;
 }
+
+
+/* ================= MAIN CONTENT ================= */
+/* Kontainer utama isi halaman */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Sidebar/left column: bagian samping */
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Main column: bagian utama konten */
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+
+/* Fake image: blok gambar palsu */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
